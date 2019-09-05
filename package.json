@@ -1,0 +1,25 @@
+{
+  "name": "sinbadayel.github.io",
+  "version": "1.0.0",
+  "description": "Ayel's Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinbadayel/sinbadayel.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Ariel Peralta",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sinbadayel/sinbadayel.github.io/issues"
+  },
+  "homepage": "https://github.com/sinbadayel/sinbadayel.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
