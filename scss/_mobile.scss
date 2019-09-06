@@ -62,15 +62,15 @@
     font-family: "Segoe UI", sans-serif;
     line-height: 1.5;
 
-    &.lg-heading {
-      font-size: 12vw;
-      font-weight: 640;
+    &.lg-heading h1 {
+      text-decoration: underline;
     }
 
     &.sm-heading {
       font-size: 5vw;
     }
   }
+
 
   main {
     align-items: center;
@@ -82,11 +82,17 @@
     padding: 0;
   }
 
+
   ul.menu-nav,
   div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0;
+
+    .nav-avatar {
+      width: 100px;
+      height: 100px;
+    }
 
     &.show {
       transform: translate3d(0, 0, 0);
@@ -207,9 +213,9 @@
     display: inline;
   }
 
-  // .mobile-hideDisplay {
-  //   display: none;
-  // }
+  .mobile-hideDisplay {
+    display: none;
+  }
 
   .timeline ul {
     width: 80%;
