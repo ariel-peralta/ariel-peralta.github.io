@@ -4,7 +4,7 @@
   "description": "Ayel's Portfolio Site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/sinbadayel/sinbadayel.github.io#readme",
   "dependencies": {
+    "fs-js": "^1.0.6",
     "node-sass": "^4.12.0"
   }
 }

@@ -1,0 +1,436 @@
+// Wide screens
+@include mediaXL {
+}
+
+// Desktops & Laptops
+@include mediaLG {
+  main {
+    align-items: center;
+    text-align: center;
+
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "info-1"
+      "info-2"
+      "info-3"
+      "info-4"
+      "info-5"
+      "info-6"
+      "info-7"
+      "info-8";
+
+    grid-template-columns: 1fr;
+
+    .bio-image {
+      width: 100%;
+    }
+  }
+
+  .piechart-skill {
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-areas:
+      "chart-1 chart-2 chart-3"
+      "chart-4 chart-5 chart-6";
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .animated-modal,
+  .fancybox-content {
+    margin: 4rem 0 0 0 !important;
+
+    &::before {
+      margin: 0 !important;
+    }
+  }
+}
+
+// Tablets & Small Laptops
+@include mediaMD {
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    font-weight: 400;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.5;
+
+    &.lg-heading {
+      font-size: 12vw;
+      font-weight: 640;
+    }
+
+    &.sm-heading {
+      font-size: 5vw;
+    }
+  }
+
+  main {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu-nav {
+    height: 65vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px;
+    .nav-link {
+      padding-top: 0;
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  .menu-branding {
+    height: 35vh;
+    transform: translate3d(100%, 0, 0);
+
+    .portrait {
+      width: 120px;
+      height: 120px;
+      font-family: "FuturaPTDemi", sans-serif;
+      font-size: 6rem;
+      text-align: center;
+      font-weight: 300;
+      // background: url(../img/logo.png);
+    }
+
+    h1 {
+      padding-top: 1px;
+      font-size: 0.8rem;
+    }
+
+    .icons {
+      font-size: 0.6rem;
+    }
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "info-1"
+      "info-2"
+      "info-3"
+      "info-4"
+      "info-5"
+      "info-6"
+      "info-7"
+      "info-8";
+
+    grid-template-columns: 1fr;
+
+    .bio-image {
+      width: 100%;
+    }
+
+    .bio {
+      p {
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    .profile-info {
+      i.profile-icon {
+        font-size: 2rem;
+        color: $secondary-color;
+        margin: 0px 20px 0px 0px;
+      }
+
+      b {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .core {
+    grid-template-areas:
+      "core-1 core-2"
+      "core-3 core-4"
+      "core-5 core-6";
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills-fontawesome {
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-areas:
+      "font-1 font-2"
+      "font-3 font-4"
+      "font-5 font-6";
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .piechart-skill {
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-areas:
+      "chart-1 chart-2"
+      "chart-3 chart-4"
+      "chart-5 chart-6";
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .resume-button {
+    padding: 0 0 4rem 0;
+
+    .btn {
+      display: block;
+    }
+  }
+
+  .mobile-showDisplay {
+    display: inline;
+  }
+
+  // .mobile-hideDisplay {
+  //   display: none;
+  // }
+
+  .timeline ul {
+    width: 80%;
+    // margin: 0 0 0 100px;
+  }
+
+  .timeline h1 {
+    font-size: 2rem;
+  }
+  .timeline h1 {
+    font-size: 1.5rem;
+  }
+
+  .timeline p {
+    font-size: 1.2rem;
+  }
+
+  .timeline .date::before {
+    display: none;
+  }
+
+  .timeline .date::after {
+    display: none;
+  }
+
+  .animated-modal,
+  .fancybox-content {
+    margin: 4rem 0 0 0 !important;
+
+    &::before {
+      margin: 0 !important;
+    }
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+
+    .title-info-1 {
+      grid-column: span 6;
+    }
+
+    .title-info-2 {
+      grid-column: span 6;
+    }
+
+    .portfolio-1 {
+      grid-column: span 6;
+    }
+
+    .portfolio-6 {
+      grid-column: span 6;
+    }
+
+    .portfolio-7 {
+      grid-column: span 6;
+    }
+
+    figure,
+    section {
+      margin: 0;
+    }
+  }
+}
+
+// Smartphones
+@include mediaSM {
+  #home-page {
+    .sub-section {
+      .typed-cursor {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .about-info {
+    .profile-info {
+      i.profile-icon {
+        font-size: 1.2rem;
+        color: $secondary-color;
+        margin: 0px 5px 0px 0px;
+      }
+
+      b {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .skills {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+    .skills-bar {
+      grid-template-areas:
+        "skill-1"
+        "skill-2"
+        "skill-3"
+        "skill-4";
+      grid-template-columns: 1fr;
+    }
+
+    .skills-fontawesome {
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+      grid-template-areas:
+        "font-1 font-2"
+        "font-3 font-4"
+        "font-5 font-6";
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .piechart-skill {
+      padding-left: 0;
+      padding-right: 0;
+      grid-template-areas:
+        "chart-1"
+        "chart-2"
+        "chart-3"
+        "chart-4"
+        "chart-5"
+        "chart-6";
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .timeline ul {
+    padding: 2rem;
+  }
+
+  .timeline h1 {
+    font-size: 1.5rem;
+  }
+  .timeline h1 {
+    font-size: 1.2rem;
+  }
+
+  .timeline p {
+    font-size: 1rem;
+  }
+
+  .error {
+    padding: 5rem 0 5rem 0;
+  }
+
+  .portfolio {
+    padding: 0 2rem 0 2rem;
+
+    .filter-menu {
+      padding: 0;
+    }
+  }
+
+  .animated-modal,
+  .fancybox-content {
+    margin: 0 !important;
+
+    &::before {
+      margin: 0 !important;
+    }
+  }
+
+  .contact-page {
+    grid-template-areas:
+      "phone"
+      "email"
+      "location";
+    grid-template-columns: 1fr;
+
+    .contact-box {
+      &.phone,
+      &.email {
+        border-right: none;
+      }
+    }
+  }
+
+  .fancybox-caption {
+    h1 {
+      font-weight: 100;
+      padding-bottom: 1rem;
+      text-align: center;
+    }
+    p {
+      display: none;
+      width: 180px;
+    }
+
+    a {
+      display: block;
+      border: 1px #fff solid;
+      background: none;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-align: center;
+      border-radius: 8px;
+      transition: 0.6s;
+      overflow: hidden;
+      padding: 15px 25px;
+      margin: 10px;
+    }
+
+    .btn {
+      text-decoration: none;
+      color: #fff;
+
+      &:hover {
+        border: 1px $secondary-color solid;
+        background: $secondary-color;
+        color: #222;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+  }
+}
