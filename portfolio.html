@@ -1,365 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ariel Peralta</title>
-    <link rel="icon" type="img/png" href="img/profile/logo.png" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/sinbadayel.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Ariel Peralta</title>
+  <link rel="icon" type="img/png" href="img/profile/logo.png" />
 
-    <!-- Third Party CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css"
-    />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/sinbadayel.css" />
 
-    <!-- Custom Fonts -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Fredericka+the+Great"
-      rel="stylesheet"
-    />
-  </head>
+  <!-- Third Party CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css" />
 
-  <body>
-    <header>
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="nav-avatar">
+          <img src="img/profile/profilenav.jpg" alt="Avatar" style="width:100%" />
+        </div>
+        <h1>Ariel Peralta</h1>
+        <div class="icons">
+          <a href="https://github.com/sinbadayel/sinbadayel.github.io" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sinbadayel/" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://www.behance.net/ayelperalta" target="_blank">
+            <i class="fab fa-behance fa-2x"></i>
+          </a>
+        </div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link"> Home </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link"> Profile </a>
+        </li>
+        <li class="nav-item">
+          <a href="timeline.html" class="nav-link"> Timeline </a>
+        </li>
+        <li class="nav-item current">
+          <a href="portfolio.html" class="nav-link"> Portfolio </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link"> Contact </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="portfolio">
+    <h1>
+      <div class="page-title">
+        MY <span class="text-secondary">&nbsp;PORTFOLIO</span>
+      </div>
+    </h1>
+
+    <div class="portfolio-menu">
+      <ul class="filter-menu">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".Webdev">WebDev</li>
+        <li data-filter=".GraphicDesigns">Graphic Design</li>
+        <li data-filter=".Branding">Branding</li>
+
+
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="grid-item GraphicDesigns">
+        <a data-fancybox="gallery" href="img/portfolio/brochures/view/dubai.png" data-caption="">
+          <img src="img/portfolio/brochures/dubai.png" alt="" class="portfolio-img" />
+        </a>
+      </div>
+      <div class="grid-item Posters">
+        <a data-fancybox="gallery" href="img/portfolio/poster/view/laboracay.png" data-caption="">
+          <img src="img/portfolio/poster/laboracay.png" alt="" class="portfolio-img" />
+        </a>
+      </div>
+      <div class="grid-item GraphicDesigns">
+        <a data-fancybox="gallery" href="img/portfolio/brochures/view/pizzados.png" data-caption="">
+          <img src="img/portfolio/brochures/pizzados.png" alt="" class="portfolio-img" />
+        </a>
       </div>
 
-      <nav class="menu">
-        <div class="menu-branding">
-          <div class="nav-avatar">
-            <img
-              src="img/profile/profilenav.jpg"
-              alt="Avatar"
-              style="width:100%"
-            />
-          </div>
-          <h1>Ariel Peralta</h1>
-          <div class="icons">
-            <a href="https://github.com/sinbadayel/sinbadayel.github.io" target="_blank">
-              <i class="fab fa-github fa-2x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/sinbadayel/" target="_blank">
-              <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://www.behance.net/ayelperalta" target="_blank">
-              <i class="fab fa-behance fa-2x"></i>
-            </a>
-          </div>
-        </div>
-        <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link"> Home </a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link"> Profile </a>
-          </li>
-          <li class="nav-item">
-            <a href="timeline.html" class="nav-link"> Timeline </a>
-          </li>
-          <li class="nav-item current">
-            <a href="portfolio.html" class="nav-link"> Portfolio </a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link"> Contact </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main class="portfolio">
-      <h1>
-        <div class="page-title">
-          MY <span class="text-secondary">&nbsp;PORTFOLIO</span>
-        </div>
-      </h1>
-
-      <div class="portfolio-menu">
-        <ul class="filter-menu">
-          <li class="active" data-filter="*">All</li>
-          <li data-filter=".Webdev">WebDev</li>
-          <li data-filter=".GraphicDesigns">Graphic Design</li>
-          <li data-filter=".Branding">Branding</li>
-       
-
-        </ul>
+      <div class="grid-item GraphicDesigns">
+        <a data-fancybox="gallery" href="img/portfolio/poster/view/bistro.jpg" data-caption="">
+          <img src="img/portfolio/poster/bluestar.jpg" alt="" class="portfolio-img" />
+        </a>
+      </div>
+      <div class="grid-item GraphicDesigns">
+        <a data-fancybox="gallery" href="img/portfolio/poster/view/lpp-brochure.jpg" data-caption="">
+          <img src="img/portfolio/poster/view/lpp-brochure.jpg" alt="" class="portfolio-img" />
+        </a>
+      </div>
+      <div class="grid-item GraphicDesigns">
+        <a data-fancybox="gallery" href="img/portfolio/brochures/view/trikee.png" data-caption="">
+          <img src="img/portfolio/brochures/trikee.png" alt="" class="portfolio-img" />
+        </a>
       </div>
 
-      <div class="item">
-        <div class="grid-item GraphicDesigns">
-          <a
-            data-fancybox="gallery"
-            href="img/portfolio/brochures/view/dubai.png"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/brochures/dubai.png"
-              alt=""
-              class="portfolio-img"
-            />
+      <div class="grid-item Branding">
+        <a data-fancybox="gallery" href="img/portfolio/branding/view/logo1.jpg" data-caption="">
+          <img src="img/portfolio/branding/logo1.jpg" alt="" class="portfolio-img" />
+        </a>
+      </div>
+      <div class="grid-item Branding">
+        <a data-fancybox="gallery" href="img/portfolio/branding/view/logo2.png" data-caption="">
+          <img src="img/portfolio/branding/logo2.png" alt="" class="portfolio-img" />
+        </a>
+      </div>
+      <div class="grid-item Branding">
+        <a data-fancybox="gallery" href="img/portfolio/branding/view/logo3.jpg" data-caption="">
+          <img src="img/portfolio/branding/logo3.jpg" alt="" class="portfolio-img" />
+        </a>
+      </div>
+      <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/stationary.jpg" data-caption="">
+            <img src="img/portfolio/branding/stationary.jpg" alt="" class="portfolio-img" />
           </a>
-        </div>
-        <div class="grid-item Posters">
-          <a
-            data-fancybox="gallery"
-            href="img/portfolio/poster/view/laboracay.png"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/poster/laboracay.png"
-              alt=""
-              class="portfolio-img"
-            />
-          </a>
-        </div>
-        <div class="grid-item GraphicDesigns">
-          <a
-            data-fancybox="gallery"
-            href="img/portfolio/brochures/view/pizzados.png"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/brochures/pizzados.png"
-              alt=""
-              class="portfolio-img"
-            />
-          </a>
-        </div>
-
-        <div class="grid-item GraphicDesigns">
-          <a
-            data-fancybox="gallery"
-            href="img/portfolio/poster/view/bistro.jpg"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/poster/bluestar.jpg"
-              alt=""
-              class="portfolio-img"
-            />
-          </a>
-        </div>
-        <div class="grid-item GraphicDesigns">
-          <a
-            data-fancybox="gallery"
-            href="img/portfolio/poster/view/lpp-brochure.jpg"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/poster/view/lpp-brochure.jpg"
-              alt=""
-              class="portfolio-img"
-            />
-          </a>
-        </div>
-
-        <div class="grid-item Branding">
-          <a
-            data-fancybox="gallery"
-            href="img/portfolio/branding/view/logo1.jpg"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/branding/logo1.jpg"
-              alt=""
-              class="portfolio-img"
-            />
-          </a>
-        </div>
-        <div class="grid-item Branding">
-          <a
-            data-fancybox="gallery"
-            href="img/portfolio/branding/view/logo2.png"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/branding/logo2.png"
-              alt=""
-              class="portfolio-img"
-            />
-
-            <a
-            data-fancybox="gallery"
-            href="img/portfolio/branding/view/logo3.jpg"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/branding/logo3.jpg"
-              alt=""
-              class="portfolio-img"
-            />
-            <a
-            data-fancybox="gallery"
-            href="img/portfolio/branding/view/stationary.jpg"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/branding/stationary.jpg"
-              alt=""
-              class="portfolio-img"
-            />
+      </div>
+      <div class="grid-item Branding">
+        <a data-fancybox="gallery" href="img/portfolio/branding/view/letterhead.jpg" data-caption="">
+          <img src="img/portfolio/branding/letterhead.jpg" alt="" class="portfolio-img" />
+        </a>
+      </div>
+      <div class="grid-item Branding">
+      <a data-fancybox="gallery" href="img/portfolio/branding/businesscard.jpg" data-caption="">
+        <img src="img/portfolio/branding/businesscard.jpg" alt="" class="portfolio-img" />
+      </a>
+     </div>
+     <div class="grid-item Branding">
+      <a data-fancybox="gallery" href="img/portfolio/branding/businesscard1.jpg" data-caption="">
+        <img src="img/portfolio/branding/businesscard1.jpg" alt="" class="portfolio-img" />
+      </a>
+     </div>
+     <div class="grid-item Branding">
+      <a data-fancybox="gallery" href="img/portfolio/branding/envelope.jpg" data-caption="">
+        <img src="img/portfolio/branding/envelope.jpg" alt="" class="portfolio-img" />
+      </a>
+     </div>
+     <div class="grid-item Branding">
+      <a data-fancybox="gallery" href="img/portfolio/branding/book.jpg" data-caption="">
+        <img src="img/portfolio/branding/book.jpg" alt="" class="portfolio-img" />
+      </a>
+     </div>
 
 
-          </a>
-        </div>
-         
-        
+      <div class="grid-item Webdev">
+        <a data-fancybox data-animation-duration="700" data-src="#rnaModal" href="javascript:;" class="">
+          <img src="img/portfolio/webdev/rna.png" alt="" class="portfolio-img" /></a>
 
-        <div class="grid-item Webdev">
-          <a
-            data-fancybox
-            data-animation-duration="700"
-            data-src="#rnaModal"
-            href="javascript:;"
-            class=""
-          >
-            <img src="img/portfolio/webdev/rna.png" alt="" class="portfolio-img"
-          /></a>
-
-          <div style="display: none;" id="rnaModal" class="animated-modal">
-            <h2>Roz & Angeliques</h2>
-            <br />
-            <img
-              src="img/portfolio/webdev/view/rna.png"
-              alt=""
-              class="portfolio-img"
-            />
-            <div class="btn">
-              <a class="btn-box" href="/rna" target="_blank">View Project</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid-item GraphicDesigns">
-          <a
-            data-fancybox="gallery"
-            href="img/portfolio/brochures/view/trikee.png"
-            data-caption=""
-          >
-            <img
-              src="img/portfolio/brochures/trikee.png"
-              alt=""
-              class="portfolio-img"
-            />
-          </a>
-        </div>
-        <div class="grid-item Webdev">
-          <a
-            data-fancybox
-            data-animation-duration="700"
-            data-src="#trooperModal"
-            href="javascript:;"
-            class=""
-          >
-            <img
-              src="img/portfolio/webdev/stormtrooper.png"
-              alt=""
-              class="portfolio-img"
-          /></a>
-
-          <div style="display: none;" id="trooperModal" class="animated-modal">
-            <h2>Stormtrooper - A One Page Animation</h2>
-            <br />
-            <img
-              src="img/portfolio/webdev/view/stormtrooper.png"
-              alt=""
-              class="portfolio-img"
-            />
-            <div class="btn">
-              <a class="btn-box" href="/stormtrooper" target="_blank"
-                >View Project</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="grid-item Webdev">
-          <a
-            data-fancybox
-            data-animation-duration="700"
-            data-src="#guruModal"
-            href="javascript:;"
-            class=""
-          >
-            <img
-              src="img/portfolio/webdev/webguru.png"
-              alt=""
-              class="portfolio-img"
-          /></a>
-
-          <div style="display: none;" id="guruModal" class="animated-modal">
-            <h2>WebGuru - CSS Grid</h2>
-            <br />
-            <img
-              src="img/portfolio/webdev/view/webguru.png"
-              alt=""
-              class="portfolio-img"
-            />
-            <div class="btn">
-              <a class="btn-box" href="/webguru" target="_blank"
-                >View Project</a
-              >
-            </div>
+        <div style="display: none;" id="rnaModal" class="animated-modal">
+          <h2>Roz & Angeliques</h2>
+          <br />
+          <img src="img/portfolio/webdev/view/rna.png" alt="" class="portfolio-img" />
+          <div class="btn">
+            <a class="btn-box" href="/rna" target="_blank">View Project</a>
           </div>
         </div>
       </div>
-    </main>
+      <div class="grid-item Webdev">
+        <a data-fancybox data-animation-duration="700" data-src="#trooperModal" href="javascript:;" class="">
+          <img src="img/portfolio/webdev/stormtrooper.png" alt="" class="portfolio-img" /></a>
 
-    <footer id="main-footer">
-      Copyright &copy; 2019 by Ariel Peralta
-    </footer>
+        <div style="display: none;" id="trooperModal" class="animated-modal">
+          <h2>Stormtrooper - A One Page Animation</h2>
+          <br />
+          <img src="img/portfolio/webdev/view/stormtrooper.png" alt="" class="portfolio-img" />
+          <div class="btn">
+            <a class="btn-box" href="/stormtrooper" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item Webdev">
+        <a data-fancybox data-animation-duration="700" data-src="#guruModal" href="javascript:;" class="">
+          <img src="img/portfolio/webdev/webguru.png" alt="" class="portfolio-img" /></a>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
-    <script src="js/sinbadayel.js"></script>
+        <div style="display: none;" id="guruModal" class="animated-modal">
+          <h2>WebGuru - CSS Grid</h2>
+          <br />
+          <img src="img/portfolio/webdev/view/webguru.png" alt="" class="portfolio-img" />
+          <div class="btn">
+            <a class="btn-box" href="/webguru" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item Webdev">
+        <a data-fancybox data-animation-duration="700" data-src="img/portfolio/webdev/webdesign.png" href="javascript:;" class="">
+          <img src="img/portfolio/webdev/webdesign.png" alt="" class="portfolio-img" /></a>
 
-    <script>
-      $(document).ready(function() {
-        var $grid = $(".item").isotope({
-          itemSelector: ".grid-item"
-        });
+        <div style="display: none;" id="guruModal" class="animated-modal">
+          <h2>WebGuru - CSS Grid</h2>
+          <br />
+          <img src="img/portfolio/webdev/view/webdesign.png" alt="" class="portfolio-img" />
+          <div class="btn">
+            <a class="btn-box" href="#">View Project</a>
+          </div>
+        </div>
+      </div>
+   
 
-        // filter items on button click
-        $("ul.filter-menu").on("click", "li", function() {
-          var filterValue = $(this).attr("data-filter");
-          $grid.isotope({ filter: filterValue });
-          return false;
-        });
+    </div>
+  </main>
 
-        $("ul.filter-menu li").click(function() {
-          $(this).addClass("active");
-          $(this)
-            .siblings()
-            .removeClass("active");
-        });
+  <footer id="main-footer">
+    Copyright &copy; 2019 by Ariel Peralta
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
+  <script src="js/sinbadayel.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      var $grid = $(".item").isotope({
+        itemSelector: ".grid-item"
       });
-    </script>
 
-    <script>
-      $(".item").isotope({
-        itemSelector: ".grid-item",
-        masonry: {
-          columnWidth: 303,
-          isFitWidth: true
-        }
+      // filter items on button click
+      $("ul.filter-menu").on("click", "li", function () {
+        var filterValue = $(this).attr("data-filter");
+        $grid.isotope({ filter: filterValue });
+        return false;
       });
-    </script>
 
-    <script type="text/javascript">
-      $("[data-fancybox]").fancybox({
-        protect: true,
-        buttons: ["zoom", "share", "fullScreen", "close"]
+      $("ul.filter-menu li").click(function () {
+        $(this).addClass("active");
+        $(this)
+          .siblings()
+          .removeClass("active");
       });
-    </script>
-  </body>
+    });
+  </script>
+
+  <script>
+    $(".item").isotope({
+      itemSelector: ".grid-item",
+      masonry: {
+        columnWidth: 303,
+        isFitWidth: true
+      }
+    });
+  </script>
+
+  <script type="text/javascript">
+    $("[data-fancybox]").fancybox({
+      protect: true,
+      buttons: ["zoom", "share", "fullScreen", "close"]
+    });
+  </script>
+</body>
+
 </html>
