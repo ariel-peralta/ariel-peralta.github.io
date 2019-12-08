@@ -143,7 +143,7 @@
 .about-info {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas: "bioimage bio bio" "bioimage info-1 info-2" "bioimage info-3 info-4" "bioimage info-5 info-6" "bioimage info-7 info-8";
+  grid-template-areas: "bioimage bio bio" "bioimage info-1 info-2" "bioimage info-3 info-4" "bioimage info-5 info-6" "bioimage info-7 info-8";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     margin: auto;
@@ -235,7 +235,7 @@
   display: grid;
   grid-row-gap: 20px;
   grid-column-gap: 50px;
-  grid-template-areas: "sub-title sub-title" "skill-1 skill-2" "skill-3 skill-4";
+  grid-template-areas: "sub-title sub-title" "skill-1 skill-2" "skill-3 skill-4";
   grid-template-columns: repeat(2, 1fr);
   padding-bottom: 3rem; }
   .skills-bar .skill-box {
@@ -380,7 +380,7 @@
   #home-page h1 {
     font-size: 10vw;
     font-family: "FuturaPTDemi", sans-serif;
-    background: linear-gradient(to top, #fbf6f6, #00ff0d);
+    background: linear-gradient(to top, gold, #00ff0d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -718,14 +718,14 @@ main {
       line-height: 1;
       margin-bottom: 1rem; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "info-1" "info-2" "info-3" "info-4" "info-5" "info-6" "info-7" "info-8";
+    grid-template-areas: "bioimage" "bio" "info-1" "info-2" "info-3" "info-4" "info-5" "info-6" "info-7" "info-8";
     grid-template-columns: 1fr; }
     .about-info .bio-image {
       width: 100%; }
   .piechart-skill {
     padding-left: 0;
     padding-right: 0;
-    grid-template-areas: "chart-1 chart-2 chart-3" "chart-4 chart-5 chart-6";
+    grid-template-areas: "chart-1 chart-2 chart-3" "chart-4 chart-5 chart-6";
     grid-template-columns: repeat(3, 1fr); }
   .animated-modal,
   .fancybox-content {
@@ -791,7 +791,7 @@ main {
     .menu-branding .icons {
       font-size: 0.6rem; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "info-1" "info-2" "info-3" "info-4" "info-5" "info-6" "info-7" "info-8";
+    grid-template-areas: "bioimage" "bio" "info-1" "info-2" "info-3" "info-4" "info-5" "info-6" "info-7" "info-8";
     grid-template-columns: 1fr; }
     .about-info .bio-image {
       width: 100%; }
@@ -805,17 +805,17 @@ main {
     .about-info .profile-info b {
       font-size: 1rem; }
   .core {
-    grid-template-areas: "core-1 core-2" "core-3 core-4" "core-5 core-6";
+    grid-template-areas: "core-1 core-2" "core-3 core-4" "core-5 core-6";
     grid-template-columns: repeat(2, 1fr); }
   .skills-fontawesome {
     padding-left: 0;
     padding-right: 0;
-    grid-template-areas: "font-1 font-2" "font-3 font-4" "font-5 font-6";
+    grid-template-areas: "font-1 font-2" "font-3 font-4" "font-5 font-6";
     grid-template-columns: repeat(2, 1fr); }
   .piechart-skill {
     padding-left: 0;
     padding-right: 0;
-    grid-template-areas: "chart-1 chart-2" "chart-3 chart-4" "chart-5 chart-6";
+    grid-template-areas: "chart-1 chart-2" "chart-3 chart-4" "chart-5 chart-6";
     grid-template-columns: repeat(2, 1fr); }
   .resume-button {
     padding: 0 0 4rem 0; }
@@ -873,18 +873,18 @@ main {
   .skills h2 {
     font-size: 1rem; }
   .skills .skills-bar {
-    grid-template-areas: "skill-1" "skill-2" "skill-3" "skill-4";
+    grid-template-areas: "skill-1" "skill-2" "skill-3" "skill-4";
     grid-template-columns: 1fr; }
   .skills .skills-fontawesome {
     margin: 0;
     padding-left: 0;
     padding-right: 0;
-    grid-template-areas: "font-1 font-2" "font-3 font-4" "font-5 font-6";
+    grid-template-areas: "font-1 font-2" "font-3 font-4" "font-5 font-6";
     grid-template-columns: repeat(2, 1fr); }
   .skills .piechart-skill {
     padding-left: 0;
     padding-right: 0;
-    grid-template-areas: "chart-1" "chart-2" "chart-3" "chart-4" "chart-5" "chart-6";
+    grid-template-areas: "chart-1" "chart-2" "chart-3" "chart-4" "chart-5" "chart-6";
     grid-template-columns: 1fr; }
   .timeline ul {
     padding: 2rem; }
@@ -907,7 +907,7 @@ main {
     .fancybox-content::before {
       margin: 0 !important; }
   .contact-page {
-    grid-template-areas: "phone" "email" "location";
+    grid-template-areas: "phone" "email" "location";
     grid-template-columns: 1fr; }
     .contact-page .contact-box.phone, .contact-page .contact-box.email {
       border-right: none; }
