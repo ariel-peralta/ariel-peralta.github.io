@@ -1,0 +1,59 @@
+// Contact Page
+
+.contact-page {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "phone email location";
+  grid-template-columns: repeat(3, 1fr);
+
+  .contact-box {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 1.3rem;
+    font-family: "FuturaPTLight", sans-serif;
+    letter-spacing: 1px;
+
+    i {
+      color: $secondary-color;
+      font-size: 5rem;
+      @include ease0ut;
+
+      &:hover {
+        padding: 0.2rem 0;
+        color: #fff;
+        font-size: 4.8rem;
+        cursor: pointer;
+      }
+    }
+
+    h1 {
+      padding-top: 1.5rem;
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-family: "FuturaPTDemi", sans-serif;
+    }
+
+    p {
+      padding-top: 1.5rem;
+      font-weight: 100;
+      line-height: 1rem;
+      font-size: 0.9rem;
+    }
+
+    &.phone,
+    &.email {
+      border-right: 1px solid #545558;
+    }
+  }
+}
+.phone {
+  grid-area: phone;
+}
+
+.email {
+  grid-area: email;
+}
+
+.email {
+  grid-area: email;
+}

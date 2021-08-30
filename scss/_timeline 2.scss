@@ -1,0 +1,215 @@
+.tl {
+  margin: 0;
+  padding: 0;
+}
+
+/*Start timeline*/
+.timeline ul {
+  border-left: 4px solid #00ff0d;
+  border-radius: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  position: relative;
+  padding: 3rem;
+  list-style: none;
+  text-align: left;
+  width: 50%;
+  font-family: "FuturaPTLight", sans-serif;
+  letter-spacing: 1px;
+}
+.timeline h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  opacity: 0.3;
+  font-family: "FuturaPTDemi", sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.timeline h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  opacity: 0.3;
+}
+.timeline h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.timeline .date {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.timeline .date:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.timeline .date::before,
+.timeline .date::after {
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.timeline .date::before {
+  content: attr(data-date);
+  left: -21rem;
+  text-align: right;
+  min-width: 12rem;
+  font-size: 1.5rem;
+}
+.timeline .date::after {
+  content: "";
+  box-shadow: 0 0 0 4px #00ff0d;
+  border-radius: 100%;
+  left: -8rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #313434;
+}
+// .timeline {
+//   position: relative;
+//   box-sizing: border-box;
+
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     left: 50%;
+//     width: 2px;
+//     height: 100%;
+//     background: #f1f1f1;
+//   }
+//   ul {
+//     margin: 0;
+//     padding: 0;
+//   }
+
+//   li {
+//     list-style: none;
+//     position: relative;
+//     width: 50%;
+//     padding: 20px 40px;
+
+//     h3,
+//     h4,
+//     h5 {
+//       margin: 0;
+//       padding: 0;
+//       font-weight: 600;
+//     }
+
+//     p {
+//       margin: 10px 0 0;
+//       padding: 0;
+//       font-size: 0.9rem;
+//       color: #f1f1f1;
+//     }
+//   }
+
+//   li:nth-child(odd) {
+//     float: left;
+//     text-align: right;
+//     clear: both;
+
+//     .tl-date {
+//       position: absolute;
+//       top: 20px;
+//       right: -285px;
+//       margin: 0;
+//       padding: 16px 16px;
+//       background: #3d3d3d;
+//       text-align: left;
+//       width: 250px;
+//       height: 120px;
+//       border-radius: 18px;
+//       box-shadow: 0 0 0 3px rgba(32, 32, 32, 0.3);
+
+//       h3 {
+//         color: #eece1a;
+//         padding-top: 5px;
+//         padding-bottom: 5px;
+//       }
+//     }
+//   }
+
+//   li:nth-child(even) {
+//     float: left;
+//     text-align: right;
+//     clear: both;
+
+//     .tl-date {
+//       position: absolute;
+//       top: 20px;
+//       left: -285px;
+//       margin: 0;
+//       padding: 16px 16px;
+//       background: #3d3d3d;
+//       text-align: right;
+//       width: 250px;
+//       height: 120px;
+//       border-radius: 18px;
+//       box-shadow: 0 0 0 3px rgba(32, 32, 32, 0.3);
+
+//       h3 {
+//         color: #eece1a;
+//         padding-top: 5px;
+//         padding-bottom: 5px;
+//       }
+//     }
+//   }
+
+//   li:nth-child(even) {
+//     float: right;
+//     text-align: left;
+//     clear: both;
+//   }
+
+//   .content {
+//     padding-bottom: 20px;
+//   }
+
+//   li:nth-child(odd):before {
+//     content: "";
+//     position: absolute;
+//     top: 24px;
+//     right: -6px;
+//     width: 10px;
+//     height: 10px;
+//     background: #eece1a;
+//     box-shadow: 0 0 0 3px rgba(238, 206, 26, 0.2);
+//   }
+
+//   li:nth-child(even):before {
+//     content: "";
+//     position: absolute;
+//     top: 24px;
+//     left: -6px;
+//     width: 10px;
+//     height: 10px;
+//     background: $secondary-color;
+//     box-shadow: 0 0 0 3px rgba(238, 206, 26, 0.2);
+//   }
+// }
+
+.education {
+  margin: 0;
+  font-family: "FuturaPTDemi", sans-serif;
+  text-align: center;
+  padding: 5rem 4rem 5rem 4rem;
+
+  h1 {
+    color: $secondary-color;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "FuturaPTDemi", sans-serif;
+  }
+}

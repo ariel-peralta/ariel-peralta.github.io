@@ -1,319 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ariel Peralta</title>
+    <link rel="icon" type="img/png" href="img/profile/logo.jpg" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Ariel Peralta</title>
-  <link rel="icon" type="img/png" href="img/profile/logo.jpg" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/sinbadayel.css" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/sinbadayel.css" />
+    <!-- Third Party CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css" />
 
-  <!-- Third Party CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css" />
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet" />
+  </head>
 
-  <!-- Custom Fonts -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet" />
-</head>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
 
-<body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="nav-avatar">
-          <img src="img/profile/profilenav.jpg" alt="Avatar" style="width:100%" />
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="nav-avatar">
+            <img src="img/profile/profilenav.jpg" alt="Avatar" style="width: 100%" />
+          </div>
+          <h1>Ariel Peralta</h1>
+          <div class="icons">
+            <a href="https://github.com/sinbadayel/sinbadayel.github.io" target="_blank">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sinbadayel/" target="_blank">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://www.behance.net/arielperalta" target="_blank">
+              <i class="fab fa-behance fa-2x"></i>
+            </a>
+          </div>
         </div>
-        <h1>Ariel Peralta</h1>
-        <div class="icons">
-          <a href="https://github.com/sinbadayel/sinbadayel.github.io" target="_blank">
-            <i class="fab fa-github fa-2x"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/sinbadayel/" target="_blank">
-            <i class="fab fa-linkedin fa-2x"></i>
-          </a>
-          <a href="https://www.behance.net/arielperalta" target="_blank">
-            <i class="fab fa-behance fa-2x"></i>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link"> Profile </a>
+          </li>
+          <li class="nav-item">
+            <a href="timeline.html" class="nav-link"> Timeline </a>
+          </li>
+          <li class="nav-item current">
+            <a href="portfolio.html" class="nav-link"> Portfolio </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="portfolio">
+      <h1>
+        <div class="page-title">MY <span class="text-secondary">&nbsp;PORTFOLIO</span></div>
+      </h1>
+
+      <div class="portfolio-menu">
+        <ul class="filter-menu">
+          <li class="active" data-filter="*">All</li>
+          <li data-filter=".SocialMedia">Graphic Design</li>
+          <li data-filter=".Branding">Branding</li>
+          <li data-filter=".WebDesign">WebDesign</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/01.jpg" data-caption="">
+            <img src="img/portfolio/social/01.jpg" alt="" class="portfolio-img" />
           </a>
         </div>
-      </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link"> Home </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link"> Profile </a>
-        </li>
-        <li class="nav-item">
-          <a href="timeline.html" class="nav-link"> Timeline </a>
-        </li>
-        <li class="nav-item current">
-          <a href="portfolio.html" class="nav-link"> Portfolio </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link"> Contact </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
 
-  <main class="portfolio">
-    <h1>
-      <div class="page-title">
-        MY <span class="text-secondary">&nbsp;PORTFOLIO</span>
-      </div>
-    </h1>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/02.jpg" data-caption="">
+            <img src="img/portfolio/branding/02.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/48.jpg" data-caption="">
+            <img src="img/portfolio/branding/48.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/03.jpg" data-caption="">
+            <img src="img/portfolio/branding/03.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/41.jpg" data-caption="">
+            <img src="img/portfolio/branding/41.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/04.jpg" data-caption="">
+            <img src="img/portfolio/branding/04.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/52.jpg" data-caption="">
+            <img src="img/portfolio/branding/52.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/05.jpg" data-caption="">
+            <img src="img/portfolio/social/05.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/06.jpg" data-caption="">
+            <img src="img/portfolio/social/06.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/42.jpg" data-caption="">
+            <img src="img/portfolio/branding/42.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/07.jpg" data-caption="">
+            <img src="img/portfolio/social/07.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/49.jpg" data-caption="">
+            <img src="img/portfolio/branding/49.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/50.jpg" data-caption="">
+            <img src="img/portfolio/branding/50.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/08.jpg" data-caption="">
+            <img src="img/portfolio/social/08.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-    <div class="portfolio-menu">
-      <ul class="filter-menu">
-        <li class="active" data-filter="*">All</li>
-        <li data-filter=".SocialMedia">Graphic Design</li>
-        <li data-filter=".Branding">Branding</li>
-        <li data-filter=".WebDesign">WebDesign</li>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/09.jpg" data-caption="">
+            <img src="img/portfolio/branding/09.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/40.jpg" data-caption="">
+            <img src="img/portfolio/branding/40.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/10.jpg" data-caption="">
+            <img src="img/portfolio/social/10.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/45.jpg" data-caption="">
+            <img src="img/portfolio/branding/45.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/11.jpg" data-caption="">
+            <img src="img/portfolio/branding/11.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/43.jpg" data-caption="">
+            <img src="img/portfolio/social/43.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/51.jpg" data-caption="">
+            <img src="img/portfolio/branding/51.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/43.jpg" data-caption="">
+            <img src="img/portfolio/branding/43.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/12.jpg" data-caption="">
+            <img src="img/portfolio/social/12.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/13.jpg" data-caption="">
+            <img src="img/portfolio/social/13.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/14.jpg" data-caption="">
+            <img src="img/portfolio/social/14.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/15.jpg" data-caption="">
+            <img src="img/portfolio/branding/15.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/46.jpg" data-caption="">
+            <img src="img/portfolio/branding/46.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/16.jpg" data-caption="">
+            <img src="img/portfolio/social/16.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/17.jpg" data-caption="">
+            <img src="img/portfolio/social/17.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/18.jpg" data-caption="">
+            <img src="img/portfolio/social/18.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/19.jpg" data-caption="">
+            <img src="img/portfolio/social/19.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/20.jpg" data-caption="">
+            <img src="img/portfolio/social/20.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/47.jpg" data-caption="">
+            <img src="img/portfolio/branding/47.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/21.jpg" data-caption="">
+            <img src="img/portfolio/branding/21.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-      </ul>
-    </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/22.jpg" data-caption="">
+            <img src="img/portfolio/social/22.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-    <div class="item">
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/01.jpg" data-caption="">
-          <img src="img/portfolio/social/01.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/23.jpg" data-caption="">
+            <img src="img/portfolio/branding/23.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/02.jpg" data-caption="">
-          <img src="img/portfolio/branding/02.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/03.jpg" data-caption="">
-          <img src="img/portfolio/branding/03.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/04.jpg" data-caption="">
-          <img src="img/portfolio/branding/04.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/24.jpg" data-caption="">
+            <img src="img/portfolio/social/24.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/05.jpg" data-caption="">
-          <img src="img/portfolio/social/05.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/06.jpg" data-caption="">
-          <img src="img/portfolio/social/06.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/07.jpg" data-caption="">
-          <img src="img/portfolio/social/07.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/08.jpg" data-caption="">
-          <img src="img/portfolio/social/08.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/25.jpg" data-caption="">
+            <img src="img/portfolio/branding/25.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/26.jpg" data-caption="">
+            <img src="img/portfolio/branding/26.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/09.jpg" data-caption="">
-          <img src="img/portfolio/branding/09.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/27.jpg" data-caption="">
+            <img src="img/portfolio/social/27.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/10.jpg" data-caption="">
-          <img src="img/portfolio/social/10.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/28.jpg" data-caption="">
+            <img src="img/portfolio/branding/28.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/29.jpg" data-caption="">
+            <img src="img/portfolio/branding/29.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/11.jpg" data-caption="">
-          <img src="img/portfolio/branding/11.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/30.jpg" data-caption="">
+            <img src="img/portfolio/social/30.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/31.jpg" data-caption="">
+            <img src="img/portfolio/social/31.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/32.jpg" data-caption="">
+            <img src="img/portfolio/social/32.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/33.jpg" data-caption="">
+            <img src="img/portfolio/social/33.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/34.jpg" data-caption="">
+            <img src="img/portfolio/social/34.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/35.jpg" data-caption="">
+            <img src="img/portfolio/social/35.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/36.jpg" data-caption="">
+            <img src="img/portfolio/social/36.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/37.jpg" data-caption="">
+            <img src="img/portfolio/social/37.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/38.jpg" data-caption="">
+            <img src="img/portfolio/social/38.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/12.jpg" data-caption="">
-          <img src="img/portfolio/social/12.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/13.jpg" data-caption="">
-          <img src="img/portfolio/social/13.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/14.jpg" data-caption="">
-          <img src="img/portfolio/social/14.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/15.jpg" data-caption="">
-          <img src="img/portfolio/branding/15.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
+        <div class="grid-item Branding">
+          <a data-fancybox="gallery" href="img/portfolio/branding/view/39.jpg" data-caption="">
+            <img src="img/portfolio/branding/39.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/16.jpg" data-caption="">
-          <img src="img/portfolio/social/16.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/17.jpg" data-caption="">
-          <img src="img/portfolio/social/17.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/18.jpg" data-caption="">
-          <img src="img/portfolio/social/18.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/19.jpg" data-caption="">
-          <img src="img/portfolio/social/19.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/20.jpg" data-caption="">
-          <img src="img/portfolio/social/20.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/40.jpg" data-caption="">
+            <img src="img/portfolio/social/40.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/41.jpg" data-caption="">
+            <img src="img/portfolio/social/41.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+        <div class="grid-item SocialMedia">
+          <a data-fancybox="gallery" href="img/portfolio/social/view/42.jpg" data-caption="">
+            <img src="img/portfolio/social/42.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
 
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/21.jpg" data-caption="">
-          <img src="img/portfolio/branding/21.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/22.jpg" data-caption="">
-          <img src="img/portfolio/social/22.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/23.jpg" data-caption="">
-          <img src="img/portfolio/branding/23.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/24.jpg" data-caption="">
-          <img src="img/portfolio/social/24.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/25.jpg" data-caption="">
-          <img src="img/portfolio/branding/25.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/26.jpg" data-caption="">
-          <img src="img/portfolio/branding/26.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/27.jpg" data-caption="">
-          <img src="img/portfolio/social/27.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/28.jpg" data-caption="">
-          <img src="img/portfolio/branding/28.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/29.jpg" data-caption="">
-          <img src="img/portfolio/branding/29.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/30.jpg" data-caption="">
-          <img src="img/portfolio/social/30.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/31.jpg" data-caption="">
-          <img src="img/portfolio/social/31.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/32.jpg" data-caption="">
-          <img src="img/portfolio/social/32.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/33.jpg" data-caption="">
-          <img src="img/portfolio/social/33.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/34.jpg" data-caption="">
-          <img src="img/portfolio/social/34.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/35.jpg" data-caption="">
-          <img src="img/portfolio/social/35.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/36.jpg" data-caption="">
-          <img src="img/portfolio/social/36.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/37.jpg" data-caption="">
-          <img src="img/portfolio/social/37.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/38.jpg" data-caption="">
-          <img src="img/portfolio/social/38.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      
-      <div class="grid-item Branding">
-        <a data-fancybox="gallery" href="img/portfolio/branding/view/39.jpg" data-caption="">
-          <img src="img/portfolio/branding/39.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/40.jpg" data-caption="">
-          <img src="img/portfolio/social/40.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/41.jpg" data-caption="">
-          <img src="img/portfolio/social/41.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-      <div class="grid-item SocialMedia">
-        <a data-fancybox="gallery" href="img/portfolio/social/view/42.jpg" data-caption="">
-          <img src="img/portfolio/social/42.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-
-      <!-- <div class="grid-item WebDesign">
+        <!-- <div class="grid-item WebDesign">
         <a data-fancybox data-animation-duration="700" data-src="#rnaModal" href="javascript:;" class="">
           <img src="img/portfolio/WebDesign/rna.jpg" alt="" class="portfolio-img" /></a>
 
@@ -365,58 +419,51 @@
           </div>
         </div>
       </div> -->
-   
+      </div>
+    </main>
 
-    </div>
-  </main>
+    <footer id="main-footer">Copyright &copy; 2019 by Ariel Peralta</footer>
 
-  <footer id="main-footer">
-    Copyright &copy; 2019 by Ariel Peralta
-  </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
+    <script src="js/sinbadayel.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
-  <script src="js/sinbadayel.js"></script>
+    <script>
+      $(document).ready(function () {
+        var $grid = $(".item").isotope({
+          itemSelector: ".grid-item",
+        });
 
-  <script>
-    $(document).ready(function () {
-      var $grid = $(".item").isotope({
-        itemSelector: ".grid-item"
+        // filter items on button click
+        $("ul.filter-menu").on("click", "li", function () {
+          var filterValue = $(this).attr("data-filter");
+          $grid.isotope({ filter: filterValue });
+          return false;
+        });
+
+        $("ul.filter-menu li").click(function () {
+          $(this).addClass("active");
+          $(this).siblings().removeClass("active");
+        });
       });
+    </script>
 
-      // filter items on button click
-      $("ul.filter-menu").on("click", "li", function () {
-        var filterValue = $(this).attr("data-filter");
-        $grid.isotope({ filter: filterValue });
-        return false;
+    <script>
+      $(".item").isotope({
+        itemSelector: ".grid-item",
+        masonry: {
+          columnWidth: 303,
+          isFitWidth: true,
+        },
       });
+    </script>
 
-      $("ul.filter-menu li").click(function () {
-        $(this).addClass("active");
-        $(this)
-          .siblings()
-          .removeClass("active");
+    <script type="text/javascript">
+      $("[data-fancybox]").fancybox({
+        protect: true,
+        buttons: ["zoom", "share", "fullScreen", "close"],
       });
-    });
-  </script>
-
-  <script>
-    $(".item").isotope({
-      itemSelector: ".grid-item",
-      masonry: {
-        columnWidth: 303,
-        isFitWidth: true
-      }
-    });
-  </script>
-
-  <script type="text/javascript">
-    $("[data-fancybox]").fancybox({
-      protect: true,
-      buttons: ["zoom", "share", "fullScreen", "close"]
-    });
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>

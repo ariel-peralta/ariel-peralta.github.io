@@ -1,0 +1,129 @@
+@import "config";
+@import "menu";
+@import "profile";
+@import "homepage";
+@import "portfolio";
+@import "contact";
+@import "timeline";
+
+* {
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+body {
+  background: $primary-color;
+  @include background();
+  color: set-text-color($primary-color);
+  height: 100%;
+  margin: 0;
+  font-family: "FuturaPTBook", sans-serif;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+// Headings
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+  font-family: "FuturaPTDemi", sans-serif;
+  line-height: 1.5;
+
+  &.lg-heading {
+    font-size: 7rem;
+    font-weight: 640;
+  }
+
+  &.sm-heading {
+    font-size: 2rem;
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+main {
+  padding: 0 4rem 4rem 4rem;
+  min-height: calc(100vh - 60px);
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: auto;
+    display: table;
+
+    .page-title {
+      display: table;
+      vertical-align: middle;
+      padding-bottom: 4rem;
+      padding-top: 4rem;
+      font-family: "FuturaPTDemi", sans-serif;
+
+      .text-secondary {
+        color: $secondary-color;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  background: darken($primary-color, 10);
+  color: set-text-color($primary-color);
+  height: 60px;
+  letter-spacing: 1px;
+}
+
+.error {
+  margin: 0;
+  font-family: "FuturaPTDemi", sans-serif;
+  text-align: center;
+  padding: 5rem 4rem 5rem 4rem;
+
+  h1 {
+    color: $secondary-color;
+    text-transform: uppercase;
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    letter-spacing: 3px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "FuturaPTDemi", sans-serif;
+    padding: 0.5rem;
+  }
+}
+
+.noDisplay {
+  display: none;
+}
+
+@import "mobile";
